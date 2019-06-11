@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image:
+		url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/pyramid.png');
+}
+
+form {
+	display: grid;
+	grid-template-columns: 90px 150px;
+	grid-gap: 10px;
+}
+
+.form__btn-submit {
+	background-color: #f44336;
+	border-top: 2px solid #ffa19a;
+	border-left: 2px solid #ffa19a;
+	border-right: 2px solid #4f6267;
+	border-bottom: 2px solid #4f6267;
+	padding: 5px 20px !important;
+	font-size: 14px !important;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	justify-self: end;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	/* grid-area: 3 / 2 / 3 / 3; */
+}
+
+.form__btn-submit:hover {
+	background-color: #fff;
+	color: #000;
+}
